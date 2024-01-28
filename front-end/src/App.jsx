@@ -1,11 +1,11 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
 import HeaderLinks from './HeaderLinks';
 import HeaderHero from './HeaderHero';
 import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
+import Footer from './Footer';
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
       <About />
       <Skills />
       <Contact />
+      <Footer />
     </>
   )
 }
