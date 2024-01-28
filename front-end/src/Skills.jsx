@@ -8,7 +8,7 @@ export default function Skills() {
                 <Row id='about-section-container'>
                     <Row id='about-title-row'>
                         <Col className='component-title'>
-                            Skills
+                            Technical Skills
                         </Col>
                     </Row>
                     <Row id='skills-icons-row'>

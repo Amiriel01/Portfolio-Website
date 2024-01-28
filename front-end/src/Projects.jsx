@@ -8,7 +8,7 @@ export default function Projects() {
             <Row id='project-section-container'>
                 <Row id='about-title-row'>
                     <Col className='component-title'>
-                        Demo Project Websites
+                        Demo Websites
                     </Col>
                 </Row>
                 <Row id='about-text-row'>

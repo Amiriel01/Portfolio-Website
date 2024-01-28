@@ -14,7 +14,7 @@ export default function HeaderLinks() {
             </Col>
             <Col xl={2} lg={4} sm={6} id='header-link'>
               <ScrollLink to='projects' smooth={true} duration={500}>
-                Projects
+                Websites
               </ScrollLink>
             </Col>
             <Col xl={2} lg={4} sm={6} id='header-link'>

@@ -28,7 +28,7 @@ export default function About() {
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            I have designed, created, and maintained websites for myself and my clients. Please fill out the contact form below or send me an email or send me an email if you have questions about my work, would like to collaborate on a project, or have a job opportunity that I would be a great fit for. Thanks again for visiting my site, have a great day!
+                            I have designed, created, and maintained websites for myself and my clients. Please fill out the contact form below if you have questions about my work, would like to collaborate on a project, or have a job opportunity that I would be a great fit for. Thanks again for visiting my site, have a great day!
                         </Col>
                     </Row>
                 </Row>

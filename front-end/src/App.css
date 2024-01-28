@@ -10,8 +10,8 @@
 }
 
 #header-links-container {
-  width: 40%;
-  margin-left: 60%;
+  width: 50%;
+  margin-left: 58%;
 }
 
 /*HeaderHero*/
@@ -72,6 +72,8 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  border-top: double 10px rgb(211, 150, 207);
+  padding-top: 2rem;
 }
 
 .about-text {
@@ -97,9 +99,37 @@
 }
 
 /*All Componenets*/
+#contact {
+background-color: rgb(211, 150, 207);
+padding-top: .25rem;
+padding-bottom: 2rem;
+margin-top: 2rem;
+}
+
+#contact-section-container {
+  margin-top: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .component-title {
   color: #27296d;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 2rem;
+}
+
+.contact-form-text {
+  color: #27296d !important;
+  font-weight: bold;
+}
+
+#contact-button {
+  background-color: #27296d;
+  font-weight: bold;
+  color: white;
+  padding: .75rem;
+  font-size: 1.25rem;
+  border-radius: 10px;
 }
