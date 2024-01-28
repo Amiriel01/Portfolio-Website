@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 export default function Projects() {
     return (
         <>
+        <div id='projects'>
             <Row id='about-section-container'>
                 <Row id='about-title-row'>
                     <Col id='about-title'>
@@ -16,6 +17,7 @@ export default function Projects() {
                     </Col>
                 </Row>
             </Row>
+            </div>
         </>
     )
 }
