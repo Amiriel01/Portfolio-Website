@@ -5,10 +5,10 @@ export default function Projects() {
     return (
         <>
         <div id='projects'>
-            <Row id='about-section-container'>
+            <Row id='project-section-container'>
                 <Row id='about-title-row'>
-                    <Col id='about-title'>
-                        Projects
+                    <Col className='component-title'>
+                        Demo Project Websites
                     </Col>
                 </Row>
                 <Row id='about-text-row'>

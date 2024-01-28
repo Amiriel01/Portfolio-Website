@@ -1,3 +1,4 @@
+/*HeaderLinks*/
 #header-container {
   background-color: #27296d;
   color: white;
@@ -13,6 +14,7 @@
   margin-left: 60%;
 }
 
+/*HeaderHero*/
 #hero-section-container {
   display: flex;
   justify-content: center;
@@ -64,9 +66,40 @@
   font-size: 2rem;
 }
 
+/*About*/
 #about-section-container {
+  margin-top: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-text {
+  color: #27296d;
+  margin-bottom: 1rem;
+}
+
+/*Projects*/
+#project-section-container {
   margin-top: 8rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*Skills*/
+.skills-icon {
+  width: 5rem;
+}
+
+#skills-icons-row {
+  text-align: center;
+}
+
+/*All Componenets*/
+.component-title {
+  color: #27296d;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }

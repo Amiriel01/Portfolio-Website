@@ -7,7 +7,7 @@ export default function Contact() {
             <div id='contact'>
                 <Row id='about-section-container'>
                     <Row id='about-title-row'>
-                        <Col id='about-title'>
+                        <Col className='component-title'>
                             Contact
                         </Col>
                     </Row>

@@ -13,13 +13,13 @@ export default function HeaderLinks() {
               </ScrollLink>
             </Col>
             <Col xl={2} lg={4} sm={6} id='header-link'>
-              <ScrollLink to='about' smooth={true} duration={500}>
-                About
+              <ScrollLink to='projects' smooth={true} duration={500}>
+                Projects
               </ScrollLink>
             </Col>
             <Col xl={2} lg={4} sm={6} id='header-link'>
-              <ScrollLink to='projects' smooth={true} duration={500}>
-                Projects
+              <ScrollLink to='about' smooth={true} duration={500}>
+                About Me
               </ScrollLink>
             </Col>
             <Col xl={2} lg={4} sm={6} id='header-link'>
