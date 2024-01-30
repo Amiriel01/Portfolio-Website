@@ -2,8 +2,55 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import { useState, FormEvent } from 'react';
+import axios from 'axios';
 
 export default function Contact() {
+
+    const [newMessage, setNewMessage] = useState({
+        name: '',
+        phone: '',
+        email: '',
+        message: '',
+    });
+
+    const handleChange = (event) => {
+        const { name, value } = event.target;
+        setNewMessage({
+            ...newMessage,
+            [name]: value
+        })
+    };
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+
+        const messageData = {
+            name: newMessage.name,
+            phone: newMessage.phone,
+            email: newMessage.email,
+            message: newMessage.message,
+        };
+
+        try {
+            const response = await axios.post("http://localhost:3000/messages/messageDetails", messageData);
+            console.log(response.status, response.data);
+
+            if (response.status === 200) {
+                console.log(response.data);
+                setNewMessage(response.data)
+                setNewMessage({
+                    name: '',
+                    phone: '',
+                    email: '',
+                    message: '',
+                })
+            }
+        } catch (ex) {
+            console.log(ex);
+        }
+    };
+
     return (
         <>
             <div id='contact'>
@@ -13,7 +60,7 @@ export default function Contact() {
                             Contact Me
                         </Col>
                     </Row>
-                    <Form>
+                    <Form onSubmit={handleSubmit}>
                         <Row className="mb-3">
                             <Form.Group as={Col}>
                                 <FloatingLabel
@@ -26,6 +73,9 @@ export default function Contact() {
                                         required
                                         type="text"
                                         placeholder="Full Name"
+                                        name='name'
+                                        value={newMessage.name}
+                                        onChange={handleChange}
                                     />
                                 </FloatingLabel>
                             </Form.Group>
@@ -40,6 +90,9 @@ export default function Contact() {
                                         className='contact-form-text'
                                         type="text"
                                         placeholder="Phone Number"
+                                        name='phone'
+                                        value={newMessage.phone}
+                                        onChange={handleChange}
                                     />
                                 </FloatingLabel>
                             </Form.Group>
@@ -55,6 +108,9 @@ export default function Contact() {
                                         required
                                         type="email"
                                         placeholder="Email"
+                                        name='email'
+                                        value={newMessage.email}
+                                        onChange={handleChange}
                                     />
                                 </FloatingLabel>
                             </Form.Group>
@@ -71,8 +127,12 @@ export default function Contact() {
                                     as="textarea"
                                     rows={6}
                                     style={{ height: 'unset' }}
-                                    placeholder="Message" 
-                                    />
+                                    placeholder="Message"
+                                    name='message'
+                                    value={newMessage.message}
+                                    onChange={handleChange}
+                                    maxLength={2000}
+                                />
                             </FloatingLabel>
                         </Form.Group>
                         <button id='contact-button' type="submit">
