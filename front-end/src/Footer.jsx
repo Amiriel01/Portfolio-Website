@@ -6,7 +6,7 @@ export default function Footer() {
         <>
             <Row id='footer-container'>
                 <Col id='footer-text'>
-                    Thank you for visitng my website today!
+                    Thank you for visiting my website today!
                 </Col>
             </Row>
         </>

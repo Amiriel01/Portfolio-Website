@@ -7,11 +7,12 @@
   position: sticky;
   top: 0px;
   z-index: 1;
+  overflow: hidden;
 }
 
 #header-links-container {
-  width: 50%;
-  margin-left: 58%;
+width: 40%;
+margin-left: auto;
 }
 
 /*HeaderHero*/
@@ -64,6 +65,52 @@
 #hero-subtitle {
   margin-top: 1rem;
   font-size: 2rem;
+}
+
+/*Projects*/
+#project-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 40rem !important;
+  color: #27296d !important;
+  margin-bottom: 1rem;
+}
+
+.project-card-title {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+}
+
+#skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.tech-image {
+  width: 2rem !important;
+}
+
+.project-card-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.project-card-link {
+  color: #27296d !important;
 }
 
 /*About*/
