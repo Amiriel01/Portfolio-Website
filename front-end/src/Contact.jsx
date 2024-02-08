@@ -61,7 +61,7 @@ export default function Contact() {
                         </Col>
                     </Row>
                     <Form onSubmit={handleSubmit}>
-                        <Row className="mb-3">
+                        <Row className="mb-3" id='contact-info-container'>
                             <Form.Group as={Col}>
                                 <FloatingLabel
                                     controlId="floatingTextarea"

@@ -23,12 +23,12 @@ export default function About() {
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            I currently use the MERN (MongoDB, Express, React, and Node.js) stack for my projects, but I am open to learning new languages and databases. I have also started using TypeScript in my newer websites. I have experience creating and using Rest APIs too. I also use responsive design in all my projects, the websites I create look great on computers, mobile devices, and tablets.
+                            I currently use the MERN (MongoDB, Express, React, and Node.js) stack for my projects, but I am open to learning new languages and databases. I have also started using TypeScript in my newer websites. I also have experience creating and using Rest APIs. I use responsive design in all my projects, the websites I create look great on computers, mobile devices, and tablets.
                         </Col>
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            I have designed, created, and maintained websites for myself and my clients. Please fill out the contact form below if you have questions about my work, would like to collaborate on a project, or have a job opportunity that I would be a great fit for. Thanks again for visiting my site, have a great day!
+                            I design, create, and maintain websites for myself and clients. Please fill out the contact form below if you have questions about my work, would like to collaborate on a project, or have a job opportunity that I would be a great fit for. Thanks again for visiting my site, have a great day!
                         </Col>
                     </Row>
                 </Row>
