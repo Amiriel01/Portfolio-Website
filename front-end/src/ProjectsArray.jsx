@@ -15,18 +15,24 @@ const projectsArray = [
             },
             {
                 index: 1,
+                src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+                alt: 'TypeScript',
+                title: 'TypeScript',
+            },
+            {
+                index: 2,
                 src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
                 alt: 'MongoDB',
                 title: 'MongoDB',
             },
             {
-                index: 2,
+                index: 3,
                 src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
                 alt: 'Express',
                 title: 'Express',
             },
             {
-                index: 3,
+                index: 4,
                 src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
                 alt: 'Node.js',
                 title: 'Node.js',
@@ -35,7 +41,7 @@ const projectsArray = [
         src: LibraryImage,
         alt: 'Another Page Public Library Homepage Image',
         live_link: '',
-        repo_link: 'https://github.com/Amiriel01/Public-Library-Website',
+        // repo_link: 'https://github.com/Amiriel01/Public-Library-Website',
     },
     {
         index: 1,
@@ -76,7 +82,7 @@ const projectsArray = [
         src: ReadersTheater,
         alt: "Reader's Theater Social Media Website",
         live_link: '',
-        repo_link: 'https://github.com/Amiriel01/Readers-Theater',
+        // repo_link: 'https://github.com/Amiriel01/Readers-Theater',
     },
 ];
 

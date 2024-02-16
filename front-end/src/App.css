@@ -4,7 +4,6 @@
   color: white;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  /* position: sticky; */
   top: 0px;
   z-index: 1;
   overflow: hidden;
@@ -130,6 +129,13 @@
 
 .project-card-link {
   color: #27296d !important;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.project-card-link:hover {
+  text-decoration: underline;
 }
 
 /*About*/

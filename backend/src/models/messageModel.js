@@ -15,7 +15,6 @@ const MessageSchema = new Schema({
     },
     email: {
         type: String,
-        type: String,
         match: /.+\@.+\..+/,
         required: true,
     },
