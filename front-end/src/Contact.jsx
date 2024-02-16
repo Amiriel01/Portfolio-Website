@@ -33,7 +33,7 @@ export default function Contact() {
         };
 
         try {
-            const response = await axios.post("messages/messageDetails", messageData);
+            const response = await axios.post("http://localhost:3000/messages/messageDetails", messageData);
             console.log(response.status, response.data);
 
             if (response.status === 200) {
