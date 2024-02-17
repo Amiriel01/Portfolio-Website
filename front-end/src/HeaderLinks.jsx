@@ -19,7 +19,7 @@ export default function HeaderLinks() {
             </Col>
             <Col xl={2} lg={4} sm={6} id='header-link'>
               <ScrollLink to='about' smooth={true} duration={500}>
-                About Me
+                About
               </ScrollLink>
             </Col>
             <Col xl={2} lg={4} sm={6} id='header-link'>
