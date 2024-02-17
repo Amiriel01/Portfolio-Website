@@ -122,20 +122,20 @@
 
 .project-card-links-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 1rem;
 }
 
 .project-card-link {
   color: #27296d !important;
-  text-decoration: none;
-  font-weight: bold;
+  text-decoration: underline;
+  /* font-weight: bold; */
   font-size: 1.25rem;
 }
 
 .project-card-link:hover {
-  text-decoration: underline;
+  color:  rgb(211, 150, 207) !important;
 }
 
 /*About*/

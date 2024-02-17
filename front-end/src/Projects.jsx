@@ -11,7 +11,7 @@ export default function Projects() {
                 <Row id='project-section-container'>
                     <Row id='about-title-row'>
                         <Col className='component-title'>
-                            Projects
+                            Recent Projects
                         </Col>
                     </Row>
                     <div id='project-cards-container'>
@@ -38,7 +38,7 @@ export default function Projects() {
                                         </div>
                                         <div className='project-card-links-container'>
                                             <Card.Link target='_blank' href={projectDetails.live_link} className='project-card-link'>Website Live Link</Card.Link>
-                                            {/* <Card.Link target='_blank' href={projectDetails.repo_link} className='project-card-link '>Github Repo Link</Card.Link> */}
+                                            <Card.Link target='_blank' href={projectDetails.repo_link} className='project-card-link '>Github Repo Link</Card.Link>
                                         </div>
                                     </Card.Body>
                                 </Card>
