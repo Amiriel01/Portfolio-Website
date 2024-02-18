@@ -22,34 +22,39 @@ export default function Contact() {
         })
     };
 
-    async function handleSubmit(event) {
-        event.preventDefault();
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
+    //     console.log(newMessage);
+    // };
 
-        // const messageData = {
-        //     name: newMessage.name,
-        //     phone: newMessage.phone,
-        //     email: newMessage.email,
-        //     message: newMessage.message,
-        // };
+    // async function handleSubmit(event) {
+    //     event.preventDefault();
 
-        // try {
-        //     const response = await axios.post("http://localhost:3000/messages/messageDetails", messageData);
-        //     console.log(response.status, response.data);
+    //     const messageData = {
+    //         name: newMessage.name,
+    //         phone: newMessage.phone,
+    //         email: newMessage.email,
+    //         message: newMessage.message,
+    //     };
 
-        //     if (response.status === 200) {
-        //         console.log(response.data);
-        //         setNewMessage(response.data)
-        //         setNewMessage({
-        //             name: '',
-        //             phone: '',
-        //             email: '',
-        //             message: '',
-        //         })
-        //     }
-        // } catch (ex) {
-        //     console.log(ex);
-        // }
-    };
+    //     try {
+    //         const response = await axios.post("http://localhost:3000/messages/messageDetails", messageData);
+    //         console.log(response.status, response.data);
+
+    //         if (response.status === 200) {
+    //             console.log(response.data);
+    //             setNewMessage(response.data)
+    //             setNewMessage({
+    //                 name: '',
+    //                 phone: '',
+    //                 email: '',
+    //                 message: '',
+    //             })
+    //         }
+    //     } catch (ex) {
+    //         console.log(ex);
+    //     }
+    // };
 
     return (
         <>
@@ -61,7 +66,7 @@ export default function Contact() {
                         </Col>
                     </Row>
                     {/* <Form onSubmit={handleSubmit}> */}
-                    <Form data-netlify="true">
+                    <Form data-netlify="true" method="POST">
                         <Row className="mb-3" id='contact-info-container'>
                             <Form.Group as={Col}>
                                 <FloatingLabel
