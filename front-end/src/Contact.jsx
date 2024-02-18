@@ -14,13 +14,13 @@ export default function Contact() {
         message: '',
     });
 
-    const handleChange = (event) => {
-        const { name, value } = event.target;
-        setNewMessage({
-            ...newMessage,
-            [name]: value
-        })
-    };
+    // const handleChange = (event) => {
+    //     const { name, value } = event.target;
+    //     setNewMessage({
+    //         ...newMessage,
+    //         [name]: value
+    //     })
+    // };
 
     // const handleSubmit = (event) => {
     //     event.preventDefault();
@@ -80,8 +80,8 @@ export default function Contact() {
                                         type="text"
                                         placeholder="Full Name"
                                         name='name'
-                                        value={newMessage.name}
-                                        onChange={handleChange}
+                                        // value={newMessage.name}
+                                        // onChange={handleChange}
                                     />
                                 </FloatingLabel>
                             </Form.Group>
@@ -97,8 +97,8 @@ export default function Contact() {
                                         type="text"
                                         placeholder="Phone Number"
                                         name='phone'
-                                        value={newMessage.phone}
-                                        onChange={handleChange}
+                                        // value={newMessage.phone}
+                                        // onChange={handleChange}
                                     />
                                 </FloatingLabel>
                             </Form.Group>
@@ -115,8 +115,8 @@ export default function Contact() {
                                         type="email"
                                         placeholder="Email"
                                         name='email'
-                                        value={newMessage.email}
-                                        onChange={handleChange}
+                                        // value={newMessage.email}
+                                        // onChange={handleChange}
                                     />
                                 </FloatingLabel>
                             </Form.Group>
@@ -135,9 +135,9 @@ export default function Contact() {
                                     style={{ height: 'unset' }}
                                     placeholder="Message"
                                     name='message'
-                                    value={newMessage.message}
-                                    onChange={handleChange}
-                                    maxLength={2000}
+                                    // value={newMessage.message}
+                                    // onChange={handleChange}
+                                    // maxLength={2000}
                                 />
                             </FloatingLabel>
                         </Form.Group>
