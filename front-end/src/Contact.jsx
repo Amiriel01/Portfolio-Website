@@ -22,34 +22,34 @@ export default function Contact() {
         })
     };
 
-    async function handleSubmit(event) {
-        event.preventDefault();
+    // async function handleSubmit(event) {
+    //     event.preventDefault();
 
-        const messageData = {
-            name: newMessage.name,
-            phone: newMessage.phone,
-            email: newMessage.email,
-            message: newMessage.message,
-        };
+    //     const messageData = {
+    //         name: newMessage.name,
+    //         phone: newMessage.phone,
+    //         email: newMessage.email,
+    //         message: newMessage.message,
+    //     };
 
-        try {
-            const response = await axios.post("http://localhost:3000/messages/messageDetails", messageData);
-            console.log(response.status, response.data);
+    //     try {
+    //         const response = await axios.post("http://localhost:3000/messages/messageDetails", messageData);
+    //         console.log(response.status, response.data);
 
-            if (response.status === 200) {
-                console.log(response.data);
-                setNewMessage(response.data)
-                setNewMessage({
-                    name: '',
-                    phone: '',
-                    email: '',
-                    message: '',
-                })
-            }
-        } catch (ex) {
-            console.log(ex);
-        }
-    };
+    //         if (response.status === 200) {
+    //             console.log(response.data);
+    //             setNewMessage(response.data)
+    //             setNewMessage({
+    //                 name: '',
+    //                 phone: '',
+    //                 email: '',
+    //                 message: '',
+    //             })
+    //         }
+    //     } catch (ex) {
+    //         console.log(ex);
+    //     }
+    // };
 
     return (
         <>
@@ -60,7 +60,8 @@ export default function Contact() {
                             Contact Me
                         </Col>
                     </Row>
-                    <Form onSubmit={handleSubmit}>
+                    {/* <Form onSubmit={handleSubmit}> */}
+                    <Form netlify>
                         <Row className="mb-3" id='contact-info-container'>
                             <Form.Group as={Col}>
                                 <FloatingLabel

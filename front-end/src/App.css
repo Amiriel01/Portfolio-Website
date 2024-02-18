@@ -147,6 +147,10 @@
   flex-wrap: wrap;
 }
 
+#project-credentials {
+  font-weight: bold;
+}
+
 .skill-container {
   margin-left: 1rem;
   margin-right: 1rem;

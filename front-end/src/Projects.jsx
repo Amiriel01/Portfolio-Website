@@ -26,6 +26,9 @@ export default function Projects() {
                                         <Card.Text>
                                             {projectDetails.description}
                                         </Card.Text>
+                                        <Card.Text id='project-credentials'>
+                                            {projectDetails.credentials}
+                                        </Card.Text>
                                         <div id='skills-container'>
                                             {projectDetails.tech.map((techDetails) => {
                                                 return <div key={techDetails.index} className='skill-container'>

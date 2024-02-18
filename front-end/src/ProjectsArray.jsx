@@ -6,6 +6,7 @@ const projectsArray = [
         index: 0,
         name: 'Another Page Public Library Website',
         description: "I wanted to create a full stack public library website. This website has a responsive design that looks great on computers, tablets, and phones. My local library is a great resource to the community and I am an avid reader so this website was a joy to create",
+        credentials: 'Library Login Credentials (Username: Admin / Password: Admin)',
         tech: [
             {
                 index: 0,
@@ -40,13 +41,14 @@ const projectsArray = [
         ],
         src: LibraryImage,
         alt: 'Another Page Public Library Homepage Image',
-        live_link: '',
+        live_link: 'https://anotherpagelibrary.netlify.app/',
         repo_link: 'https://github.com/Amiriel01/Public-Library-Website',
     },
     {
         index: 1,
         name: "Reader's Theater Social Media Website",
         description: "I wanted to create a full stack social media site that catered to readers. I've not seen a social media site that served just the reading enthusiasts of the world and thought it would be a unique idea to incorporate when building my social media site.",
+        credentials: 'Guest Login Credentials (Username: Guest / Password: Guest)',
         tech: [
             {
                 index: 0,
@@ -81,7 +83,7 @@ const projectsArray = [
         ],
         src: ReadersTheater,
         alt: "Reader's Theater Social Media Website",
-        live_link: '',
+        live_link: 'https://readers-theater.netlify.app/',
         repo_link: 'https://github.com/Amiriel01/Readers-Theater',
     },
 ];
