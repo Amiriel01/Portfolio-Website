@@ -66,7 +66,11 @@ export default function Contact() {
                         </Col>
                     </Row>
                     {/* <Form onSubmit={handleSubmit}> */}
-                    <Form name='profile-website-contact-form' netlify method="POST">
+                    <Form name='profile-website-contact-form' method="POST">
+                        <input
+                            type='hidden'
+                            name='fprofile-website-contact-form'
+                            value='contactForm' />
                         <Row className="mb-3" id='contact-info-container'>
                             <Form.Group as={Col}>
                                 <FloatingLabel
@@ -80,8 +84,8 @@ export default function Contact() {
                                         type="text"
                                         placeholder="Full Name"
                                         name='name'
-                                        // value={newMessage.name}
-                                        // onChange={handleChange}
+                                    // value={newMessage.name}
+                                    // onChange={handleChange}
                                     />
                                 </FloatingLabel>
                             </Form.Group>
@@ -97,8 +101,8 @@ export default function Contact() {
                                         type="text"
                                         placeholder="Phone Number"
                                         name='phone'
-                                        // value={newMessage.phone}
-                                        // onChange={handleChange}
+                                    // value={newMessage.phone}
+                                    // onChange={handleChange}
                                     />
                                 </FloatingLabel>
                             </Form.Group>
@@ -115,8 +119,8 @@ export default function Contact() {
                                         type="email"
                                         placeholder="Email"
                                         name='email'
-                                        // value={newMessage.email}
-                                        // onChange={handleChange}
+                                    // value={newMessage.email}
+                                    // onChange={handleChange}
                                     />
                                 </FloatingLabel>
                             </Form.Group>
@@ -135,9 +139,9 @@ export default function Contact() {
                                     style={{ height: 'unset' }}
                                     placeholder="Message"
                                     name='message'
-                                    // value={newMessage.message}
-                                    // onChange={handleChange}
-                                    // maxLength={2000}
+                                // value={newMessage.message}
+                                // onChange={handleChange}
+                                // maxLength={2000}
                                 />
                             </FloatingLabel>
                         </Form.Group>
