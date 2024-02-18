@@ -61,7 +61,7 @@ export default function Contact() {
                         </Col>
                     </Row>
                     {/* <Form onSubmit={handleSubmit}> */}
-                    <Form netlify>
+                    <Form data-netlify="true">
                         <Row className="mb-3" id='contact-info-container'>
                             <Form.Group as={Col}>
                                 <FloatingLabel
