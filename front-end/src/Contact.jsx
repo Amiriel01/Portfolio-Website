@@ -69,8 +69,8 @@ export default function Contact() {
                     <Form name='profile-website-contact-form' method="POST">
                         <input
                             type='hidden'
-                            name='fprofile-website-contact-form'
-                            value='contactForm' />
+                            name='form-name'
+                            value='profile-website-contact-form' />
                         <Row className="mb-3" id='contact-info-container'>
                             <Form.Group as={Col}>
                                 <FloatingLabel
