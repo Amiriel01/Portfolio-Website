@@ -13,22 +13,22 @@ export default function About() {
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            Hello again, I’d like to tell you a little more about me.
+                            Hello there! Allow me to share a bit more about myself.
                         </Col>
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            Originally an educator, I found software engineering by chance. A friend of mine, another software engineer, gave me a curriculum to try because he thought I’d enjoy learning the trade. He was right, within days of starting my learning journey I was hooked.
+                            For twelve years, I immersed myself in my education career until I stumbled upon the world of software engineering. A friend, who happened to be a software engineer, introduced me to a curriculum, believing I might enjoy delving into the realm of programming. He was right - from the moment I embarked on this learning journey, I was captivated. Continuously expanding my skill set, crafting meticulously designed projects, and realizing the vastness of knowledge awaiting exploration, I've embraced a mindset where learning knows no bounds.
                         </Col>
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            I currently use the MERN (MongoDB, Express, React, and Node.js) stack for my projects, but I am open to learning new languages and databases. I have also started using TypeScript in my newer websites. I also have experience creating and using Rest APIs. I use responsive design in all my projects, the websites I create look great on computers, mobile devices, and tablets.
+                            Currently, I predominantly utilize the MERN (MongoDB, Express, React, and Node.js) stack for my projects. Nevertheless, I remain enthusiastic about mastering new languages and databases. For instance, I've recently incorporated TypeScript into my newer projects. Proficient in both creating and consuming RESTful APIs, I prioritize responsive design in all my projects, ensuring optimal viewing experiences across various devices, including computers, mobiles, and tablets. Additionally, projects that feature user logins have built-in authentication to safeguard sensitive information.
                         </Col>
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            I design, create, and maintain websites for myself and clients. Please fill out the contact form below if you have questions about my work, would like to collaborate on a project, or have a job opportunity that I would be a great fit for. Thanks again for visiting my site, have a great day!
+                            From conception to maintenance, I take pride in designing and developing websites, both for personal ventures and clients alike. If you have inquiries about my work, seek collaboration opportunities, or wish to discuss potential job prospects, please don't hesitate to reach out via the contact form below. Thank you for visiting my site, and I hope you have a fantastic day!
                         </Col>
                     </Row>
                 </Row>

@@ -147,6 +147,10 @@
   flex-wrap: wrap;
 }
 
+#project-description1 {
+  margin-bottom: 1rem;
+}
+
 #project-credentials {
   font-weight: bold;
 }

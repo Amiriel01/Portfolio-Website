@@ -23,8 +23,11 @@ export default function Projects() {
                                         <Card.Title className='project-card-title'>
                                             {projectDetails.name}
                                         </Card.Title>
+                                        <Card.Text id='project-description1'>
+                                            {projectDetails.description1}
+                                        </Card.Text>
                                         <Card.Text>
-                                            {projectDetails.description}
+                                            {projectDetails.description2}
                                         </Card.Text>
                                         <Card.Text id='project-credentials'>
                                             {projectDetails.credentials}
