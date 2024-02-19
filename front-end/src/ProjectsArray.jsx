@@ -5,7 +5,7 @@ const projectsArray = [
     {
         index: 0,
         name: 'Another Page Public Library Website',
-        description: "I wanted to create a full stack public library website. This website has a responsive design that looks great on computers, tablets, and phones. My local library is a great resource to the community and I am an avid reader so this website was a joy to create",
+        description: "This website has a responsive design that looks great on computers, tablets, and phones. It integrates the RESTful API backedn I build and the Google Books API for a great user experience. As an avid reader and library patron in my own town, I thought this would be a fun and interesting site to build. To demo all the features you will need the library login credintials. The login is in the footer of the site.",
         credentials: 'Library Login Credentials (Username: Admin / Password: Admin)',
         tech: [
             {
@@ -47,7 +47,7 @@ const projectsArray = [
     {
         index: 1,
         name: "Reader's Theater Social Media Website",
-        description: "I wanted to create a full stack social media site that catered to readers. I've not seen a social media site that served just the reading enthusiasts of the world and thought it would be a unique idea to incorporate when building my social media site.",
+        description: "This social media site caters to the readers of the world. Users can search other reader profiles with a helpful search, like posts, post their thoughts, comment on other readers' posts, follow readers, and update their profile. For demo purposes, deleting, updating, and creating new users has been turned off. You can view the code for the disabled features in the Github link. Please login using the Guest credentials to demo the site.",
         credentials: 'Guest Login Credentials (Username: Guest / Password: testpass1)',
         tech: [
             {
