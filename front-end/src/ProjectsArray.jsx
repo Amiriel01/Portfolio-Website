@@ -48,7 +48,7 @@ const projectsArray = [
         index: 1,
         name: "Reader's Theater Social Media Website",
         description: "I wanted to create a full stack social media site that catered to readers. I've not seen a social media site that served just the reading enthusiasts of the world and thought it would be a unique idea to incorporate when building my social media site.",
-        credentials: 'Guest Login Credentials (Username: Guest / Password: Guest)',
+        credentials: 'Guest Login Credentials (Username: Guest / Password: testpass1)',
         tech: [
             {
                 index: 0,
