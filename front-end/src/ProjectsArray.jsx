@@ -23,18 +23,23 @@ const projectsArray = [
             },
             {
                 index: 2,
+                src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg',
+                title: 'Vite',
+            },
+            {
+                index: 3,
                 src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
                 alt: 'MongoDB',
                 title: 'MongoDB',
             },
             {
-                index: 3,
+                index: 4,
                 src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
                 alt: 'Express',
                 title: 'Express',
             },
             {
-                index: 4,
+                index: 5,
                 src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
                 alt: 'Node.js',
                 title: 'Node.js',
@@ -66,18 +71,23 @@ const projectsArray = [
             },
             {
                 index: 2,
+                src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg',
+                title: 'Vite',
+            },
+            {
+                index: 3,
                 src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
                 alt: 'MongoDB',
                 title: 'MongoDB',
             },
             {
-                index: 3,
+                index: 4,
                 src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
                 alt: 'Express',
                 title: 'Express',
             },
             {
-                index: 4,
+                index: 5,
                 src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
                 alt: 'Node.js',
                 title: 'Node.js',

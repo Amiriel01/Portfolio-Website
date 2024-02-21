@@ -54,6 +54,14 @@ export default function Skills() {
                         </Col>
                         <Col>
                             <div className='skills-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt='Vite'/>
+                                <p className='skills-text'>
+                                    Vite
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skills-container'>
                                 <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt='Express' />
                                 <p className='skills-text'>
                                     Express
