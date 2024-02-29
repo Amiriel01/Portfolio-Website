@@ -60,7 +60,7 @@ const projectsArray = [
         index: 1,
         name: "Reader's Theater Social Media Website",
         description1: "This social media site caters to the readers of the world. Users can search other reader profiles with a helpful search, like posts, post their thoughts, comment on other readers' posts, follow readers, and update their profile. The site features a three step form to create a new user and utilizes password authentication for a secure login experience.",
-        description2: "For demo purposes deleting, updating, and creating new users has been disabled. Viewers can still preview the sign up form in the live demo. Visitors can also view the code for the disabled features in the Github link provided below. Once you have navigated to the site please login using the Guest credentials provided to demo the Reader's Theater social media site.",
+        description2: "For demo purposes deleting, updating, and creating new users has been disabled. Viewers can still preview the sign up form in the live demo. Visitors can also view the code for the disabled features in the Github repository link provided below. Once you have navigated to the site please login using the Guest credentials provided to demo the Reader's Theater social media site.",
         credentials: 'Guest Login Credentials (Username: Guest / Password: testpass1)',
         tech: [
             {
