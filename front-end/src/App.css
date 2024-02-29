@@ -113,7 +113,7 @@
 
 @media(min-width: 700px) {
   .project-card {
-    width: 40rem !important;
+    width: 45rem !important;
     color: #27296d !important;
     margin-bottom: 1rem;
   }
