@@ -49,31 +49,31 @@ I created this full stack software engineer website to showcase my latest projec
 
 The header section of my project features a scroll to location, and the hero section with an image and a brief introduction.
 
-![Header Section Image](ReadMeImages/header.png)
+![Header Section Image](README-Images/header.png)
 
 **Projects Section**
 
 The projects section features my latest projects with information about each project, login credentials for demos if needed, links to the GitHub repositories and live demo sites, and the tech stacks used for each project.
 
-![Projects Section Image](ReadMeImages/projects.png)
+![Projects Section Image](README-Images/projects.png)
 
 **About Section**
 
 The about section is where I put the information provided about me and my software engineer journey.
 
-![About Section Image 1](ReadMeImages/about.png)
+![About Section Image 1](README-Images/about.png)
 
 **Technical Skills Section**
 
 In the technical skills section I have listed the skills I currently use on a regular basis in projects along with their icons.
 
-![Technical Skills Section Image 1](ReadMeImages/techskills.png)
+![Technical Skills Section Image 1](README-Images/techskills.png)
 
 **Contact Section**
 
 Website visitors are able to send me a contact message if they would like to collaborate on a project, have questions about any of my projects, or would like to discuss employement opportunities. The contact form contents are sent when the form is submitted. 
 
-![Contact Section Image](ReadMeImages/contact.png)
+![Contact Section Image](README-Images/contact.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
