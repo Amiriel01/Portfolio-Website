@@ -57,6 +57,8 @@ The projects section features my latest projects with information about each pro
 
 ![Projects Section Image](README-Images/projects.png)
 
+![Projects Section Image](README-Images/projects2.png)
+
 **About Section**
 
 The about section is where I put the information provided about me and my software engineer journey.
