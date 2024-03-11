@@ -217,9 +217,21 @@
 }
 
 /*Skills*/
+#skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 @media(min-width: 500px) {
   .skills-icon {
     width: 5rem;
+    margin-right: 3rem;
+  }
+
+  .skills-text {
     margin-right: 3rem;
   }
 }
