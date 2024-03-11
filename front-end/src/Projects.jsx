@@ -29,6 +29,9 @@ export default function Projects() {
                                         <Card.Text>
                                             {projectDetails.description2}
                                         </Card.Text>
+                                        <Card.Text id='project-spin-up'>
+                                            Please allow time for the website to spin up. Thank you!
+                                        </Card.Text>
                                         <Card.Text id='project-credentials'>
                                             {projectDetails.credentials}
                                         </Card.Text>
@@ -45,6 +48,7 @@ export default function Projects() {
                                         <div className='project-card-links-container'>
                                             <Card.Link target='_blank' href={projectDetails.live_link} className='project-card-link'>Website Link</Card.Link>
                                             <Card.Link target='_blank' href={projectDetails.repo_link} className='project-card-link '>Github Link</Card.Link>
+                                            <Card.Link target='_blank' href={projectDetails.repo_link2} className='project-card-link '>Github Link (API)</Card.Link>
                                         </div>
                                     </Card.Body>
                                 </Card>

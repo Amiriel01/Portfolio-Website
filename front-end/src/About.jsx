@@ -23,7 +23,7 @@ export default function About() {
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            Currently, I predominantly utilize the MERN (MongoDB, Express, React, and Node.js) stack for my projects. Nevertheless, I remain enthusiastic about mastering new languages and databases. For instance, I've recently incorporated TypeScript into my newer projects. Proficient in both creating and consuming RESTful APIs, I prioritize responsive design in all my projects, ensuring optimal viewing experiences across various devices, including computers, mobiles, and tablets. Additionally, projects that feature user logins have built-in authentication to safeguard sensitive information.
+                            I use a diverse range of technologies to craft solutions tailored to project requirements. I am passionate about continuous learning and adept at mastering new languages and databases as needed. My expertise extends to creating and consuming RESTful APIs, ensuring seamless integration between different components of the application. Moreover, I prioritize responsive design principles in all my projects, ensuring optimal user experiences across various devices, including computers, mobiles, and tablets. Projects featuring user logins are equipped with built-in authentication mechanisms to safeguard sensitive information and enhance security.
                         </Col>
                     </Row>
                     <Row className='about-text-row'>

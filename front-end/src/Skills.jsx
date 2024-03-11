@@ -30,9 +30,25 @@ export default function Skills() {
                         </Col>
                         <Col>
                             <div className='skills-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt='Bootstrap' />
+                                <p className='skills-text'>
+                                    Bootstrap
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skills-container'>
                                 <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='JavaScript' />
                                 <p className='skills-text'>
                                     JavaScript
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skills-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt='C#' />
+                                <p className='skills-text'>
+                                    C#
                                 </p>
                             </div>
                         </Col>
@@ -54,9 +70,27 @@ export default function Skills() {
                         </Col>
                         <Col>
                             <div className='skills-container'>
-                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt='Vite'/>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" alt='Angular' />
+                                <p className='skills-text'>
+                                    Angular
+                                </p>
+                            </div>
+                        </Col>
+                    {/* </Row> */}
+                    {/* <Row id='skills-icons-row'> */}
+                        <Col>
+                            <div className='skills-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt='Vite' />
                                 <p className='skills-text'>
                                     Vite
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skills-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-plain.svg" alt='Webpack' />
+                                <p className='skills-text'>
+                                    Webpack
                                 </p>
                             </div>
                         </Col>
@@ -65,6 +99,14 @@ export default function Skills() {
                                 <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt='Express' />
                                 <p className='skills-text'>
                                     Express
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skills-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" alt='.NET' />
+                                <p className='skills-text'>
+                                    .NET
                                 </p>
                             </div>
                         </Col>
@@ -86,9 +128,9 @@ export default function Skills() {
                         </Col>
                         <Col>
                             <div className='skills-container'>
-                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt='Bootstrap' />
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt='SQL Database' />
                                 <p className='skills-text'>
-                                    Bootstrap
+                                    SQL Database
                                 </p>
                             </div>
                         </Col>

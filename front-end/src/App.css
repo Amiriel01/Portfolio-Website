@@ -109,6 +109,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 
 @media(min-width: 700px) {
@@ -149,6 +150,12 @@
 
 #project-description1 {
   margin-bottom: 1rem;
+}
+
+#project-spin-up {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
 }
 
 #project-credentials {
@@ -210,8 +217,17 @@
 }
 
 /*Skills*/
-.skills-icon {
-  width: 5rem;
+@media(min-width: 500px) {
+  .skills-icon {
+    width: 5rem;
+    margin-right: 3rem;
+  }
+}
+
+@media(max-width: 499px) {
+  .skills-icon {
+    width: 5rem;
+  }
 }
 
 #skills-icons-row {
@@ -235,8 +251,8 @@
 }
 
 .component-title {
-  color: #27296d;
-  font-size: 2rem;
+  color: rgb(211, 150, 207);
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
 }
