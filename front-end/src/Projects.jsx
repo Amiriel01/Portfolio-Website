@@ -48,7 +48,7 @@ export default function Projects() {
                                         <div className='project-card-links-container'>
                                             <Card.Link target='_blank' href={projectDetails.live_link} className='project-card-link'>Website Link</Card.Link>
                                             <Card.Link target='_blank' href={projectDetails.repo_link} className='project-card-link '>Github Link</Card.Link>
-                                            <Card.Link target='_blank' href={projectDetails.repo_link2} className='project-card-link '>Github Link (API)</Card.Link>
+                                            {/* <Card.Link target='_blank' href={projectDetails.repo_link2} className='project-card-link '>Github Link (API)</Card.Link> */}
                                         </div>
                                     </Card.Body>
                                 </Card>
