@@ -104,7 +104,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Amiriel01/Readers-Theater
+   git clone https://github.com/Amiriel01/Portfolio-Website
    ```
 2. Install NPM packages
    ```sh
